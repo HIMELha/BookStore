@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book Store website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+</head>
+<body>
+
+<!-- header section starts -->
+<header class="header">
+    <div class="header-1">
+     <a href="#" class="logo" ><i class="fas fa-book" style="margin-right: 5px;"></i>Bookstore<span id="ry"></span></a>
+      <form action="" class="search-form">
+      <input type="search" placeholder="Search hare..." class="search-box">
+      <label for="search-bar" class="fas fa-search"></label> 
+     </form>
+<div class="icons">
+    <div id="search-btn" class="fas fa-search"> </div>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-shopping-cart"></a>
+    <div id="login-btn" class="fas fa-user"></div>
+       
+</div>
+    </div>
+<div class="header-2">
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#featured">Featured</a>
+        <a href="#arrivals">Arrivals</a>
+        <a href="#Reveiw">Reviews</a>
+        <a href="#blogs">Blog</a>
+       
+    </nav>
+</div>
+
+
+   
+    </div>
+</header>
+
+
+
+<!-- header section end -->
+<!-- bottom navbar starts-->
+
+<nav class="bottom-navbar">
+    <a href="#home"  class="fa-solid fa-house-chimney"></a>
+    <a href="#featured"   ><i class="fa-solid fa-list"></i></a>
+    <a href="#arrivals" ><i class="fas fa-tags"></i></a>
+    <a href="#Reveiw" ><i class="fas fa-comments"></i></a>
+    <a href="#blogs" ><i class="fas fa-blog"></i></a>
+
+</nav>
+
+<div class="login-form-container">
+    <div id="close-btn" class="fas fa-close"></div>
+    <form>
+        <h3> Sign In</h3>
+        <span>User</span><input type="text" class="box" placeholder="username" required>
+        <span>Password</span><input type="text" class="box" placeholder="password" required>
+    <div class="checkbox">
+        <input type="checkbox" id="remeber-me">
+        <label for="remeber-me">Remember me</label>
+    </div>
+    <input type="submit" value="sign in" id="loginID" class="btn">
+    <p>forgot your password?<a href="#">click here</a></p>
+    <button class="createId">Create New account</button>
+    </form>
+</div>
+
+<section class="home" id="home">
+      <div class="row">
+         <div class="content">
+            <h3> Upto 75% off</h3>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus accusamus itaque, illo blanditiis asperiores maiores consequatur laboriosam non rerum beatae sint optio dolore pariatur? Delectus ducimus illo similique ipsam consequuntur!</p>
+             <a href="#" class="btn">shop now</a>
+         </div>
+          <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="images/book-1.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/book-2.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/book-3.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/book-4.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/book-5.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="images/book-6.png" alt=""></a>
+            </div>
+           
+          </div>
+      </div>
+    
+</section>
+
+
+<!-- iconn section-->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-plane"></i>
+        <div class="content">
+            <h3>free shipping</h3>
+            <p>order over 100$ </p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>secure payment</h3>
+            <p>100+ payment getway</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>easy return</h3>
+            <p>10 days returns </p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 support</h3>
+            <p>call us anytime</p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- feture section -->
+<section class="featured" id="featured">
+
+    <h1 class="heading"><span>featured books</span></h1>
+
+    <div class="featured-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book-3.png">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$16.44 <span>rated</span></div>
+                       <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book-1.png">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$16.44 <span>rated</span></div>
+                       <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book-2.png">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$16.44 <span>rated</span></div>
+                       <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book-4.png">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$16.44 <span>rated</span></div>
+                       <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book-5.png">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$16.44 <span>Rated</span></div>
+                       <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book-6.png">
+                </div>
+                <div class="content">
+                    <h3>featured books</h3>
+                    <div class="price">$16.44 <span>rated</span></div>
+                       <a href="#" class="btn">add to cart</a>
+                </div>
+            </div> 
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
+
+<section class="newsletter">
+    <form>
+        <h3>Subscirbe for latest updates</h3>
+        <input type="email" name="" id="" placeholder="enter your email" class="box">
+        <input type="submit" value="Subscirbe" class="btn">
+    </form>
+</section>
+
+
+
+<section class="arrivals" id="arrivals">
+    <h1 class="heading"><span> new arrivals</span></h1>
+    <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+            <a href="#" class="box swiper-slide">
+                <div class="image">
+                    <img src="images/book-4.png" alt="" srcset="">
+                </div>
+          <div class="content">
+            <h3>new arrivals</h3>
+            <div class="price">15.99$ <span>@0.99$</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+            </a>
+
+            <a href="#" class="box swiper-slide">
+                <div class="image">
+                    <img src="images/book-2.png" alt="" srcset="">
+                </div>
+          <div class="content">
+            <h3>new arrivals</h3>
+            <div class="price">15.99$ <span>@0.99$</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+            </a>  
+
+            <a href="#" class="box swiper-slide">
+                <div class="image">
+                    <img src="images/book-5.png" alt="" srcset="">
+                </div>
+          <div class="content">
+            <h3>new arrivals</h3>
+            <div class="price">15.99$ <span>@0.99$</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+            </a>
+            <a href="#" class="box swiper-slide">
+                <div class="image">
+                    <img src="images/book-4.png" alt="" srcset="">
+                </div>
+          <div class="content">
+            <h3>new arrivals</h3>
+            <div class="price">15.99$ <span>@0.99$</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+            </a>
+
+            <a href="#" class="box swiper-slide">
+                <div class="image">
+                    <img src="images/book-3.png" alt="" srcset="">
+                </div>
+          <div class="content">
+            <h3>new arrivals</h3>
+            <div class="price">15.99$ <span>@0.99$</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+            </a>  
+
+            <a href="#" class="box swiper-slide">
+                <div class="image">
+                    <img src="images/book-1.png" alt="" srcset="">
+                </div>
+          <div class="content">
+            <h3>new arrivals</h3>
+            <div class="price">15.99$ <span>@0.99$</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+
+
+</a> </div> </div> 
+
+
+
+          <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+
+
+           
+            <a href="#" class="box swiper-slide">
+                <div class="image">
+                    <img src="images/book-2.png" alt="" srcset="">
+                </div>
+          <div class="content">
+            <h3>new arrivals</h3>
+            <div class="price">15.99$ <span>@0.99$</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+            </a>
+
+            <a href="#" class="box swiper-slide">
+                <div class="image">
+                    <img src="images/book-4.png" alt="" srcset="">
+                </div>
+          <div class="content">
+            <h3>new arrivals</h3>
+            <div class="price">15.99$ <span>@0.99$</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+            </a>  
+
+            <a href="#" class="box swiper-slide">
+                <div class="image">
+                    <img src="images/book-5.png" alt="" srcset="">
+                </div>
+          <div class="content">
+            <h3>new arrivals</h3>
+            <div class="price">15.99$ <span>@0.99$</span></div>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+          </div>
+            </a>
+        </div>
+    </div>
+  
+    
+</section>
+
+
+<section class="deal">
+    <div class="content">
+        <h3>deal of the day</h3>
+        <h1> upto 50% off</h1>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, animi excepturi eos vero veniam in cupiditate praesentium impedit officia eum?</p>
+     <a href="#" class="btn">Order now</a>
+    </div>
+    <div class="image">
+        <img src="https://media.istockphoto.com/photos/shopping-bags-in-shopping-cart-and-credit-card-on-laptop-with-paper-picture-id1165069915?k=20&m=1165069915&s=612x612&w=0&h=iBxWDM6Neg2QYBOWFwsp9_saL-qkpNp6WFBg0xNc5TU=" alt="">
+    </div>
+</section>
+
+
+
+
+<!-- review section starts here-->
+
+<section class="reviews" id="Reveiw">
+
+    <h1 class="heading">
+        <span>client's review</span>
+    </h1>
+
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="box swiper-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh5oMGxArKVy2WZ2a3Vty-ZQQXz8HF-YxmXhNbcPZtQw&s" alt="">
+               <h3>john deo</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet officia quidem exercitationem placeat aperiam, at consectetur ab laudantium nesciunt reprehenderit, pariatur voluptas aliquid veritatis soluta?</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            </div>
+
+
+            <div class="box swiper-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrXjaJs3rW-jlWJOsh_lnKEQd2jvSnZVqLrw&usqp=CAU" alt="">
+               <h3>john deo</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet officia quidem exercitationem placeat aperiam, at consectetur ab laudantium nesciunt reprehenderit, pariatur voluptas aliquid veritatis soluta?</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+             
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            </div>
+            <div class="box swiper-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh5oMGxArKVy2WZ2a3Vty-ZQQXz8HF-YxmXhNbcPZtQw&s" alt="">
+               <h3>john deo</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet officia quidem exercitationem placeat aperiam, at consectetur ab laudantium nesciunt reprehenderit, pariatur voluptas aliquid veritatis soluta?</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            </div>
+            <div class="box swiper-slide">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGfcwvn3AEMRlduOlylwP7TK71SqU-wPJkPw&usqp=CAU" alt="">
+               <h3>john deo</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet officia quidem exercitationem placeat aperiam, at consectetur ab laudantium nesciunt reprehenderit, pariatur voluptas aliquid veritatis soluta?</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            </div>
+
+            <div class="box swiper-slide">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUWFRgVFRUYGBgYHBwaGhoaGhgYGBkYGhgaGhwaHBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHjQrISs0NDY0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAP8AxgMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAFAgMEBgABBwj/xAA/EAACAAQDBQUHAgQFBAMAAAABAgADESEEEjEFQVFhcQYigZGhBxMyQrHB8HLRFFKC4WKSorLxFSMkUxYzNP/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACIRAAICAgMAAgMBAAAAAAAAAAABAhEDIRIxQVFhBBMicf/aAAwDAQACEQMRAD8AVI7FYgC6r5/2h4di538q+f8AaOte6EZ7sRfIw/T9nKB2Pnjcvn/aGMT2WxC3oPAx173YhmfIBGkHITw/Zw11ZGowoRDiYwxZe22DVHUga1ire7gciFEJ4bFxKXGwDoYUpaBSFxJ2OcMIreMwtTpBlmO+I7JClIqMQMuBhxcDygpkAiBidqIhIABykVJNBzoaXgTZXEk4HZpYgKKmLRhOyU4itFHj/aAeye0iSXr7sOBxYg1sbGltd4i97J9oWCcKHDSyRvAda8AyVPK4FxSKTFwbewQ/Yucf5fM/tA/E+z2c29fM/tHUNl7Yw2ILLImo5UAsFNwGrQ04Gh8oJZBCciv1fZyHCdgZqb18z+0FJfZKaB8vrHSvdiEsgpByD9X2ci2tJEglXpWKXtTa7VOUkDlaLD7QsYHxjIl8gANP5jen0in4nAO2inyiXP7NY40vDeD7TzEN6sOsXTYe3UxFFzBSbX4xzeZsyb/IfKN4J3lOCKgiCM/sUsS+Duadn5rCoZaeMYezM4/MvrBzsJj/AOIwkuYdSKN+pTQ+oiy+7EVyM/1JnOj2SmH5l8jGR0XII1ByD9I5GRkZEG5kIfSFwhtIBM5528HeTxinlYuXbwd5Opin0imc/poLG6QpRG6RICCIg4vFolVJvTw892/yMPbSn5ENPiNhFaeWWHFqamppoB9CfKCi4Rs20xixYMTmvyN6AU3UzC9PONhwBZmsDcVqKHhvaJOA2LPnOFRS1tdFBP8AaCk3sbixUZK1ApQ/v1MJzivTZY5PwryCooRrmrqeGvUfSNqwYWNDatd5rfXw8oJYjYWIQkZGBNiMpO+9t/y+RHCIibLm1BKNqK9071NKcf2MNTj8hwl8DuyNpvJmh5RKvYMKsudVcMEYqQSuZATQ336mL5sH2qN7xUxaoEagzoGGUm11JNR6xQ8Vs6aLNLYMOR0NK0/N5gVisK1C1ONuBFfsB5GGpJicJI9Ug1vDWKfKjNwBPkI577Le2BnouEnsvvUUCW2nvEQAEU/mAvbUdDHQcatUYcQR6QgvRyTsvsNZpafM7zOxck/4jWLqmyZQHwDyivbDxSypYB3W8oN4bbMt7AgxyN29nWotJUJxWypZU9weUc47V7DVKuopHQNq7cRBQmKftjaSzUYLBbTtFVaplq9jMyuAA3iZMB/zV+8dDjmfsWBGHnLuE408VUx0yOs4jIyMjIBmoyOXt7QZzufdy1C7galupI+kSztvH0zplP8AhKmnnWsS5JdhTZ0WNNpFDwHbp1YJi8O0sE094pzIObDUDzi7y5qsuZTUG4Iik76BlE7di6dTFQpFy7dD4Op+kU6GzmfZiiFARiwqEAC23O7wXUDdurzid2E2GMQ7O9ciHT+YtQ34jWBe2JY96anWn01/OEWz2dT8udOYPlb7esRldROrCto6Hs/BJLFEUCJ1BEGU9YlIkYxN5GNLUm4HlCDJT+VfIQspzjTpFCQOx0lG1UHdpFC7YbAQy2dO4y3FOIqaxf8AEpFf2qodHXdQj0jK6lZotxo49s7aD4XES8Qq3luGodLWZeVQSK849PI4mSww0dQwrwYV+8eX8Sl8p3EgnjS30p6R6H7BzC2zsKTqJKL4KMo9AI7PLOP2gK2wVAZOBP8AaGsFsBZb5os22hl/7g6GAD7T3mOWUUnR2Y25RtEPaGxUmOKxCxmw0loYcn7XYvYGJWGU4iYktvhN2/SNR9olK3RpL+VbC/s92YJOGzUoZjFz42HoBFthuTKCqFAoAKQ5HWtHC9m4yMjIYjnvZrYiIoJUExaBJUDQQL2WxCivCCDTxTWOVOzoapkTG4NHBBURF2LizJcST8B+DlyiTNnDjASfODTFym4YfWCMmpKhTjcXY/25+Tr9op0W/tp8KdftFQjrZ577FCNxixkSBXO0E3LMAt3lFfOh9K+kWD2cSmea73ygeBJNh9TEPbexDNRJqBiyKxawyhM+UX1zVBPCkWT2cyv/ABph+HM5UHeAFA9LxlklapHZii4036gjju2ciU7S0DTXUkMEBIB0pbU9IhYft7NLgNhHVCdTmUjqCI3ipM2WVlYbDEJYNMqiW5FqFjTeBfSo1AFdmY13rMVFNBlCOWLNmvUliVGWuoa452hPWjoUVezpEjaOdcwG6sVvtN2teQciJnc86AczFk2JhCkrK9yL8LUih7Q2C8yczmjKzknfRQTotKMbUobDW+kK3oaim2Mf/JNpOuZJaHkrIbdK6xK2XtiZNJlzZRlzAK6d1gNSOY3ipga+xsYGYh5bqoPu1Hx1znKSVUFDkNDlOoGt4P4LZcwIrzh3wK9eNyBBIcVRyntCmSfMQaBqjkDen5wj0D7OC3/TcLmFCZdfAsxB8RQ+McZ7S7ML43IBXOqkeo18I7T2CDrg0lzBRpRaXyyqe6RyykU5UjeEtJHNODty8sM7UlBpbA8IqJwoYVEXDaB7jdIomInuml4jL2i8DexrE4QA1MSuyU8Niio+VD/uEVrH7XmN3aUib2OV0ne8OlKNzBiIbkjXLL+WdZjIblTAwqIcjpOMyMjIyACnYmQ+XuGhity8Limmd5mp6RacNiaaxo4tS1qRxKmdlNAzbGBf3JyMc1ICdnNnzEnK0wkgnfFox21ZYWhIrwhjZ84TWVUGhBJ5Vio6kqFNXF8hvtsO6nX7RTounbgdxOv2ilx2Ps8v1i1jI0I3EgW3ZMs/wyZVBMzMhzCqgZ5hJPK/pDfY+TklFP5Zs1eFaOQD5U84d7L7RUp7pjRlrl5qTW3QmN7PT3TTErXvsw6OcwHgKRzyVM9GDUor/Cz2I3QwVQaUB6X8oBbV24JdEUFnbRR9TwEak4pwhYMPeEGma614W3Q276LUa7ZY0Wim+6A8hlVr6aHhXrACb2pdEYTAC4B+GynwJJF+ZgNsvbOKmtlfIstjU2OamtKnUm24RL30XGNds6ciLrAbbGJCgiuogd/1YoaVzISAOIPCI21MVmWtTSBy1QKNbK0MEJ+NCMSCqAgjWuY0v4R1Hs9VVZSakBKni2TKf9sUHsngnedNnIjvQJLBBUKDdjmqRSxXzjpWCw2RKGhY3Yje37AUHhGuKLuzDNNcasdnGusV/auANyB4RYmWIONxCqLmN5QUlTOaM3F2UhNml3oB1PCLLgsAEUACGJO0UV6GxO6CyTA0GPEo7DLmc9GYZ2XQxPl4s74i5YUBGjSMlaCSTwYyIAjIjii+TKxmDCFytn07wOsRMXKZbrDUnb2SziPOVWejbGNq4AMdIs/ZXZwRMx1a/wC0VfH9o00Gpi3bGnsZKkjdHThhbs5vyMlUgL23mAqo5xTYsvaxiSKxWo3kqZwp3sUI3GItbCJaSaCJSsbZFqRfQxP2ViTmIreoIOpvx8REScsQ3mlCHX5deh/B6xGSNo1wyqRacRhQ/fU0YijGlcvQH8tCJrY6UyoJUh5Z1mZmBH6kINPCoiLsraSsQa315VpcjrFtl95baj6RzrR3p7AxwM1xmZMPU2uG0qR8q3FL+PKBO1ZeJl1Cph2pWlFYE6UG7W/lzg1tFJynuIprvFvSEphpjUqoUb6anxht6NU0V/ZuzcQRnnlEzfIpLU5s2gPIefCNtrF3oN2p4/losO2sUspKE0pbx/PrHN9s7Vsb6104C8JLkzOUkjqvszX/AMRn/nnO3goRPqpi4VgP2S2cZGDkSmFGVAXH+N6uw82I8ILkx2xVKjgbt2ImGBOPwwIqYLUrAzbM3KsWjOXQE2XhAzlmvTSLKskAWgDsskPTjFjURTYooQqUhVY2YSYko0WjI2BGQABdpyspPAxWNqSQd0XPHYhHOWor9IB4nBVblHDlxuMrXR24cilE57j5DBlYbiPrHW9lTqyltSw+kV47GSoL6DdBXCYxQwQbvKOn8dPizm/JceSBfaeQ7XCkjlFWoa03x1b3SsLiB2N2HLe+UV4xclezBRa6KPIQCHXmgQWn7NVDQiIczAqYxeaMdFrDKWwJNnVPKEySCyg3BIB6E0P1g0dnJwhEzBIgLkfDfnbQDnWkZvNFmixOIAmyGw00r8h0ruizbL2+q0UkAjTnbjvtE/auyw4NRe9RzEUnH7KdCaA5a25dOIjNP5Otx+DoL9oJZAAIqdDuiDju0SoK1XrX8rHN3dhq5G7nA7Ezq6sW8YurFyrwL9oe0PvCQptU9D+UgPsTDNPxMpSKhpiLTkXUH0hjD4J3OlB5QXxE58IiTZQo6umVqVVXHfAPEkKbQ13SE06bZ6FJhMV7sl2qkY6UHRlWYKCZKJ76NyBuyncw+oIiwR1nIYxiubacsw5RYWiv4+7xUSJdDOEFHEWJDaAGGHeEHpZtAwiKMJMKMNu0IZsmkZEOfiKRqKoViH2cu6x4xkrCEQTKxoCE3emNKtoFzsHm1jcjAhTUCCLpGAQXSpCat2zSCkKJhSpWIuOxKotXYIOLEKPMwh9Fe7QYsK0BP+pcob27tOU7VExW/TceYir43aRNkqo47z+0ZSwKUrCOWSVIsOM7QpLHeuf5Rc/2iv4rtHMmlAVCSw6MVF2Ko4bvN4aDhAamYxuamo8I0h+PCLutg8kmqs7/ALRwdy6iqtc8q7+hgVOw6N8Qg92fxPvcNImHV5SMepQV9awjHbNr3k1/l3Hpw6aRy5MXqOzHl1TKHtTs+jGoFIBzOzqVoBF/bDu5yqtTv3U610idgtgotC9Hbh8g8Pm8bcoyjCTejVzjFbKhsXsoXoaZE3tS5/QN556DnpFG9pm0pbz1w0gAScNmW1w80ke8Yn5iCAteKtujrHb7b38JhmKGk2ZVJfEGnefoov1KjfHnt0v+GO3FjSVnJkyuT+huSLg87co6R2P9oj4dDJxIecg+BgVLoN6kuRmXhU1HTTnstLjqPrGpB756xrRiz0VsntPhsSD7l++BUy3GRwOOU/EOakiI+IerGOJKtaXIINQQSCDxBFwekWTCdpsUgALq4H/sWreLLQnqYaiSzpMgiog5La0ctw/bRwRnkqQP5GKnyYGLXsntbhptE957tz8swZKngHuhPKteUJxBOi0s0RJ04Qp2OhgdiUO6BIGwdtTHAU6xkM4nCA3MajRJGdsu8aIjA8JZowNjDFD7ZdrZsmcJGHKrky52KhiWajZKGwAUjnU7qXuuKxSS0eY/wopduiitue6OGY/GNNmPNf4nfMeWY6dBYeEXFWSwjjNt4iYavPmNXdmKr/lWg9IHM9bm54m8JMYTGhNGOYjPEgwy4gGjJcu0bKxHw8qbUlplV3CgHmaaRLMAzsPs2xLHAy1b5S6r+kO4HlQjwib2n7RDDKoQBpjgkAmyqCAWNOZoNATv0BF+zBScCK7pk2nTPX6loHe0PZzCdKxOaxySivD/AOxsw8C1dRQXqKxg1/Rom+JP7NdrHeb7nEFQXJCMAF74A7tN9QRxoRSpzCLjMeg5x57aVOxOJEqQWDDKQR3cuUVDcRTUFuNhTKY672o2pOk4NnICzAioXpYzGITuLWupLVNgBvhVvQ70cy7c7VOJxbsDVJdZcvh3T33/AKmr4KsVHEyKNbQwUyUhnESAwoSRzBoQY2rRnYNmd1a/msawMvfGjgQGpUseZr4wUw+HCiEkDFS1h0CNAQ5FiG2NBWIONm7vPrEmdM3jd9T+w+oga6FjUkU5QmwSOp+ybarzZMzDuxPuCpSuolvmGXoGU04ZqReZq0F45B7L8cJWOVKmk5HTlmAExT/oI/qjrmOxApSI9Blc2vjbgCNxk/DjWMjQyLP/ABNoUs2sBsM5Kg8hBGSbRnRqmVn2i7RySElA0963e5olDT/MU8o5lMNLjcVPrFl7dYr3uKdK2lAIP1fE/wDqYj+mKqykVUnUERa0gRORqwhzAxMSysprY6+P94nTXvBYUKzERky4qISTGZ7GGA9GCG0eoB5AwsGADr/sx/8Awr+ub/vaAnbraZmz1lJX3cpqtcAM47ta7gpJFToxBOq1LezecFwGZtFaax6Bix9IpU2YSS75czVLEmtz8xy660JGoNRUisY1/TLvSJfs1mKmPxCFRmeXmBpvRhUXuCQWNDfumwAEFParj6mRhwdKzX60KJ9X9IrnZiq7Tw5uCxdDWgv7p6rTjZa6k0Uk3pEbtVtH3+LnTAe7nKJ+hO4CORoW/qhpbBvQGdOBhtzQVI8BvO4DqbQ8YhtODTMu5BU/qIsPAE+fKNCRUjD0JZrs2vAcAOQh9tI2IS/CABDOACzGgEQExzOTlFEXU7/+YjbWnlmEtdBr1ibhkVFA3C/U7vX6RN2x1SETmygJTM2pAuMx1/OUMtKc3c5RwESklu1TXIp/zGGZyAaVPMmsMQ9sHEiVisO40Salf0lgrejGO0YhyTQRwdmy34X8rx6BWUKV4387wkKQNmKYyJMxLxkWZDuGwrBFpwEPZygLPZVBY8gBU+giVgTVFI4CB/aqbkweIbf7tgOrjIPVoizSjjuJxTO7zDq7M56sSx+sYzo4tqIZR7/bly4xrE4YHvKcrekUMg4ru1B/V+/rfxicx0MCMZNb5hceoMFMPdRCT2NrRLGkaYQ4BaG2aKEN4R+7TgSPuPQiJQiDhjR2Xjfy1+vpE0mEgL/2axgXZM/nNeXu+cS62Nj3WY0MApjkC1RuqO6NKqQT3tLi2YrmUACI+z8dlwvur3xLzGoQKquHkqO8bLd7Ma0KixjK15nSqgk1PeUgnQmlQPiJDCwMZvsoaw+K91ME1bMquEI0DmWyAZt4BdTlXdlJNRAwWsN0SMbM7wHIHUHeRS1gLEgDTNS9Ii1i49EsYxmICKWO7QcTuEC9mVuTqxqTxJhvas/O+UfCuvNt/lp5xKwyUAibtldIIpMtCMTNopMNAxF2jMosU3oSQOw3edmPGC+HmLTMxtz/ADhABHoCNK/QwQwmHzkM5ou5ePXlERZckT/43NZFLAb9FHiftEbEs+/L4FvraCLKAABQDgLQNnuAbCp9IpkoiTWNDbcdD9jHouQpMtDxRD5oI85TakGu+OnJ7Q0RESnwoi+SgfaEhSOgS8PxjcAey/auTiAxZ1UjcSBv5xkVZlaDWxG/7CGvyj6QC9oWOVcI6ZgHcoAtRmKq6sxC6kCgr1iV2czrhkvXuj6RUvaNPDzpSitURi39b2H+g+cKtlJ6KTnrYGhG/wCJR9xCZjzlFe645a+USWw5PA9R94T/AAp6dCfvFNFgTFz81ipU8DBHAzbDoPpEbHSaWL+BpWN4M90fmkQuyn0GPeVhDPSIhekJRyYqyaFh++G8+m+CVYg+7tzMPo9r6w0A9hnpNvcZQacKnKbmyg0UZtQctIM5txqxPdvUsW1HcXQtTTXMO8QDFdLgOpNKZd9aUrQ1puOahpe9tKwY96VQ1rYEX7oqu4qtybUKj5gpJiH2NdETEzasT5aAeAFlFSTQWFYhY/E5EJHxGy9T+2sLQwOnHO9flU5V5nefP6RT6EuyPhsPbrqYIrMUbxGmlQ06DeRCSoG7FvigNAT6QNxmJLbgPU+sSHX8/wCYg4gwpPRUVsjg3439YL4fCfM5LHhuH7wOwSjNU6C8EjMDbwV45aV5X+I8gPKJivSpMemzq2DqKa0BZvJdIizGG+Ya81I+oEEpCW+HKOevloIyfLtrTgBFtMiwI7roCBzIIPlDTrU1FxEucp3GsNqLXp4WtE8bZV0SdjYdGZg+4W84yHNnS6sb0t9xGQ+JDezsHZbbanCozKQAoBNLaRQtuY73+ImTdFLd3hkUBV9AD4mCOzNuBNlsirWZQSxeh7xoWryUN6RVUBJ0Fd51A898UmmSotdkxXG6/S8RsS7GwOQde8fLSMZ2buqTTe3HpG8ioMzaCGygZicOqCpHnqfOEYOwpSl/QwtWMxi7aDQboQj95q76feI9K+iSUqaRNly6RHlFUFa1JhudiyRaK6JJjzQu+8RjihXr+fnSBcyaTDJci8S5FKIWbEjMtd1b3sCL1pelK1AuRWCc6d3CNK0XxUgULbyBYhbfCTUxXlfRhr9+B5QSSaGVfD0FAD0BtS1COEHbB9G580haA3aw+58BGkRaAC1KekRXmZnPBRQdd/28o1nIh2Kggy/hv9YbYjQ26WiKuKMaefWCxUKmoRzgZPN4emTjxiMb2FyYiTNIom4LDilWOu7lzgsigLWpNNBYeAoAYiYLvL3hTr9onyUI4ERcVSIk9jBWa2hCjoIQZD6Mc1YJF4jT3FaVvyiqJsFzEAjSrYQrEngfOGi9gIldlCwaaWjIaLxqC0Kgjs2YchWvzfb+8TFUUpuiHgRRBzJPrD0x2Aooq3PQcz+0EVSCTtjs2cqCpNB+aDeYE4rGZzS4UbuPWHhgizZpjFj6dIlLIUaDz/aDbHpEOVKZ6D4V+sEcB2UxeJBfDSWdF7pcsiBmGoXORmpXdBHsvsc43Efw6vkQDNMexYILZVBtmJtwFzelD3DZOy5eHlJIlA5EFBW5N6kk7ySST1jLJOtI1hC9s81Y3DTJLmXOR5bDVXBU9RXUW1FoSjx6Y2lsyTPTJOlpMXg6hqcxW6nmI55tf2X4dmJw7vL/AMB76joT3h4kxCzfJbx30czSUjRqZgBuiw7c7CTsKod5yZSwVQM2djSpoCKCgEClw5HzE9aRvFqStGElxdAaZKy9DDyPlQt4L9BE3EYTMNaeEQsRg2ooFwuu4k8aGBproLT7G8KO51MLJjaIQtKGGXaH0g7ZtoZLxjOYbYxDZSRjNDmCWrV4VP7fWI5h/BNRvAxK7KfRPEhyalom4fMo1rA4Yxq91CfA3iVJnlaFxl/zNTruEapoyaZMebm0NDw3xEnBxcP6CJrkEV8iP3iDiWimSiDOdj8WsaMY96XhEx4my6sbZoyGyYyM7NKDiGiqvAAen/MKmlVGZjTxN/DfDZcC58hv4D6CI0xwDmbvMfhUaLw5VjRujJKxczGTD8IyLxYgE+f2iMZkwn41P9QiVh5RPeai9bsTzY38BEk4VCDbXedf7DlCpsdpF39jmDGefMNAy5FpWtjmJPoI6yZo4xwrsjtn+EzLkJR2BJVqPZaWBsRW+o3x1Hs/teRiVqk4Ej4kPdcX3o16c9DxjlyRkpXWjojKLjVljLV/LwhBTX0FYUkxVG6I+Kxyr+aRm6RS2c49ouOL4kS90pACP8cwBz/pKeUVExK23jve4mdMqO870/SDlX/SoiAXHGO+CqKRySdybHIQUrCPeDSsaz0PWLJI2GlXeuoNOkbGCW9bgcftDyspYkHqOm+MR6kk6VoOkIBqbhk7tFFKithodPWNPg0LUKgAcLC9xp0MPTqClbg909DpEec5IqDcWrzB3+BNekJ0PY6uCTcq+VfrDn8MNwHkIYkzqi1mFiDuO7qNRXpwh04i1fwGBUGxbJavD8MM4lLV3ctRzH7b4TMxB3Q0uLGm7d0/LQNhQkNQWIo2oGgbWoG4HhEQzr96vUftD2IYGtPzhEMmorv3xLY0jbEbtIaaNjSEtE+GiQqVLqacqxqJ+w5WZm5D7xuIBtm5kw1Pl5cIYUBe81yfykLmvQ/m+GUUk1MashEiXMvma53DcP7w++K46nQfcxEeYFsBeMk2ubmHYq9CEt3O+kOgsCGzlSNCLEdCLxEWbDgcandDEER2mxyWWezgaBlr62J8YzFducWRlYJm5bvzrA33mYECy8tT1iOMMpPdFKepjKWKL8NI5WvTQxRJJOpufG8LWdzhnFYfetiPWIfvSNYq67Jq+gqZnnCnxVRSl4GrOrCw8PkLiSC9DUf8xJXFLl5wPzQmsHIKJgxWqtUg6HeI0zk3U33jc0RS1YSrkQWFDzORRxu+nAw/78NyrEMTKHkdRGzbofSCxtEkncYjul6HqD9o2H3HwjTvWBiQlyQKH/mGWaFvMJFOENi5iWy0q7FHSEMYdmQw0KQ0G+zK1L9BGRJ7Iy65z+boyJEz/9k=" alt="">
+               <h3>john deo</h3>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet officia quidem exercitationem placeat aperiam, at consectetur ab laudantium nesciunt reprehenderit, pariatur voluptas aliquid veritatis soluta?</p>
+               <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half"></i>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<!-- review section ends  here--> 
+
+<div class="blogs" id="blogs">
+    <h1 class="heading"><span>Our blogs</span></h1>
+    <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <div class="image">
+                   
+                    <img src="https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip" alt="">
+                    </div>
+                    <div class="content">
+                    <h3>Best way to improve learning abilty</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur magni doloribus beatae iure quam?</p>
+                     <button class="btn">read more</button>
+                </div>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <div class="image">
+                   
+                    <img src="https://learn.canva.com/wp-content/uploads/2015/03/40-books-unlock-creativity-start-lifes-best-work.jpg" alt="">
+                    </div>
+                    <div class="content">
+                    <h3>Gain knowledge by reading book</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur magni doloribus beatae iure quam?</p>
+                     <button class="btn">read more</button>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                   
+                    <img src="https://acse.edu.au/wp-content/uploads/2020/05/Book-Reading-Habit-of-Future-Leaders.jpg" alt="">
+                    </div>
+                    <div class="content">
+                    <h3>Why next generation should read books</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur magni doloribus beatae iure quam?</p>
+                     <button class="btn">read more</button>
+                </div>
+            </div>
+
+
+
+            <div class="swiper-slide box">
+                <div class="image">
+                   
+                    <img src="https://ik.imagekit.io/panmac/tr:f-auto,w-740,pr-true//bcd02f72-b50c-0179-8b4b-5e44f5340bd4/994e402b-5360-4d40-956e-a933dfba8225/Julia.jpg" alt="">
+                    </div>
+                    <div class="content">
+                    <h3>Book is the powerhouse for human</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur magni doloribus beatae iure quam?</p>
+                     <button class="btn">read more</button>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                   
+                    <img src="https://s26162.pcdn.co/wp-content/uploads/sites/2/2022/05/Book.jpg" alt="">
+                    </div>
+                    <div class="content">
+                    <h3>5 books that you should read in 2024</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur magni doloribus beatae iure quam?</p>
+                     <button class="btn">read more</button>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="image">
+                   
+                    <img src="images/bok.gif" alt="">
+                    </div>
+                    <div class="content">
+                    <h3>blog title goes here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur magni doloribus beatae iure quam?</p>
+                     <button class="btn">read more</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>our location</h3>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>BANGLADESH</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>USA</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>CHINA</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i>CANADA</a>
+        </div>
+
+        <div class="box">
+            <h3>important links</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i>home</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>featured</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>arrivals</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>reviews</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>blogs</a>
+        </div>
+
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"><i class="fas fa-arrow-right"></i>account info</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>ordered items</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>privacy policy</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>payment method </a>
+            <a href="#"><i class="fas fa-arrow-right"></i>24/7 helpline</a>
+        </div>
+
+        <div class="box">
+            <h3>CONTACT INFO</h3>
+            <a href="#"><i class="fas fa-phone"></i>01784984822</a>
+            <a href="#"><i class="fas fa-phone"></i>+88001784984822</a>
+            <a href="#"><i class="fas fa-envelope"></i><span>areno@gmail.com</span></a>
+           
+        </div>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a> 
+        <a href="#" class="fab fa-twitter"></a> 
+
+        <a href="#" class="fab fa-instagram"></a> 
+        <a href="#" class="fab fa-linkedin"></a> 
+        <a href="#" class="fab fa-telegram"></a> 
+    </div>
+<div class="credit">
+    created by <span>himel hasan</span> | &copy; all rights reseved!
+</div>
+    </div>
+</div>
+
+
+
+
+
+
+<!---loader-->
+<!-- 
+<div class="loader">
+    <img src="images/bok.gif">
+</div> -->
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js">
+
+    </script>
+   
+    
+</body>
+</html>
